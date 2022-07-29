@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainWrapper {
+    background-color: rgb(18, 54, 66);
+    width:100vw;
+    height:100vh;
+    padding-top:30px;
+    background-image: url(./hd-wallpaper-3441687_1920.jpg);
+    background-size: cover;
+    
+    
+}
+
+.mainWrapper > h1 {
+    display:flex;
+
+}
+
+
+.mainWrapper > .menu {
+    display: flex;
+    background: rgb(104,164,233);
+    background: radial-gradient(circle, rgba(104,164,233,1) 6%, rgba(102,163,233,1) 9%, rgba(102,163,233,1) 11%, rgba(88,148,217,1) 18%, rgba(77,134,200,1) 24%, rgba(68,122,185,1) 30%, rgba(59,109,167,1) 39%, rgba(49,92,143,1) 46%, rgba(41,80,125,1) 54%, rgba(36,71,111,1) 64%, rgba(29,59,93,1) 74%, rgba(23,45,71,1) 83%, rgba(20,40,64,1) 87%, rgba(16,37,62,1) 92%, rgba(16,32,52,1) 95%, rgba(17,33,50,1) 99%);
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    padding-left:20px;
+    min-height:80px;
+    padding-top:12px;
+    margin-bottom:40px;
+    padding:15px;
+    gap:35px;
+
+}
+
+.menuBox {
+
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-items: center;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav > a{
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+
+}
+
+.mainBtn {
+    margin-left:0.5%;
+}
+
+.mainBtn > button {
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    border:2px solid rgb(255, 255, 255);
+    font-size: 17px;
+    border-radius: 15px;
+    width:80px;
+    height:30px;
+}
+
+
+.mainBtn > input {
+    border:none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.fBtn:hover {
+  background: transparent;
+  padding: 25px;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.sBtn:hover {
+    background: transparent;
+    padding: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.tBtn:hover {
+    background: transparent;
+    padding: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fBtn:hover {
+    background: transparent;
+    padding: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+@media (max-width:768px) {
+    .menuBox {
+        flex-direction: column;
+        width:100%;
+      
+    }
+    .menu {
+        flex-direction: column;
+
+    }
+    .mainWrapper > h1 {
+        text-align: center;
+    }
+
+
+}

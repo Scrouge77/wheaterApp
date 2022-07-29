@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./main.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="mainWrapper">
+			
+			<div class="menu">
+				<h1>
+					WEATHER
+					
+				</h1>
+                <nav class="menuBox">
+                    <a class="fBtn" href="">RAINFALL</a>
+                    <a class="sBtn" href="">FORECAFT</a>
+                    <a class="tBtn" href="">INFORMATION</a>
+                    <a class="fBtn" href="">MAPS</a>
+                </nav>
+			</div>
+			<main class="mainBtn">
+				<input type="text" id="SearchField" placeholder="Podaj miasto" />
+				<button id="SearchBtn">Szukaj</button>
+			</main>
+
+			<p id="ErrorMsg"></p>
+
+			<div id="WeatherBox"></div>
+		</div>
+
+		<script type="module" src="./script.js"></script>
+	</body>
+</html>
